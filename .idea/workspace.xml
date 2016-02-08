@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bcfec7c-82aa-44ff-8b99-3dc6960f8a6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hh1.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/toy_data.cpickle" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LPBoost-Using-String-and-Fisher-Features.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/yuxinsun.xml" />
@@ -15,6 +17,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Features/process_data.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LPBoost/LPBoost.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LPBoost/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NotImplement.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample_code.py" />
     </list>
     <ignored path="LPBoost-Using-String-and-Fisher-Features.iws" />
