@@ -99,8 +99,7 @@ class feature_generation(BaseEstimator):
                 if data_item[j:j+p] in dic:
                     dic[data_item[j:j+p]] += 1
             kern.append(dic.values())
-        # from scipy.io import savemat
-        # savemat('toy', {'kern': np.asarray(kern).astype(float)}, oned_as='row')
+
         return np.asarray(kern).astype(float)
 
     def _normalise_string(self, kern):
@@ -117,12 +116,53 @@ class feature_generation(BaseEstimator):
 
     def _process_fisher(self, data):
         """
-
-        :param data:
-        :return: DAG, nodes: substrings, edges: Fisher feature that corresponds to the edge
-            A networkx DAG of Fisher features
+        [TO BE TESTED]
+        Generate a DAG for computing Fisher features from sequence files.
+        Parameters
+        -------
+        :param data: list, length n_samples
+            List of sequences. Each component is the pool of sequences of a sample, where sequences are separated
+            by spaces.
+        :return: DAG G, nodes: substrings, edges: term frequencies that correspond to the edge
+            A networkx DAG of term frequencies for computing Fisher features.
         """
-        return
+        edge_dic = {}
+        kern_dic = {}
+        for i, data_item in enumerate(data):
+            print('Data item: %d' % i)
+            for i in range(len(data_item)-self.p+1):
+                sub = data_item[i:i+self.p]
+                if sub in kern_dic:
+                    kern_dic[sub][i] += 1
+                elif ' ' not in sub:
+                    kern_dic[sub] = np.zeros(len(data))
+                    kern_dic[sub] = kern_dic[sub].astype(float)
+                    kern_dic[sub][i] = 1
+
+        for k, v in kern_dic.items():
+            edge_dic[(k[:-1], k[1:])] = v
+
+        # clear kern_dic to release memory space
+        kern_dic.clear()
+
+        G = nx.DiGraph()
+        G.add_edges_from(edge_dic.keys())
+        nx.set_edge_attributes(G, 'kern_unnorm', edge_dic)
+
+        # add edges that represents non-existing transitions to improve performance
+        alphabet_set = set(alphabet)
+        for node in G.nodes():
+            if 'X' in node:
+                G.remove_node(node)  # remove nodes with 'X'
+                continue
+
+            suc = G.successors(node)
+            suc = set([temp[-1] for temp in suc])
+            inter = alphabet_set-alphabet_set.intersection(suc)
+
+            for letter in inter:
+                G.add_edge(node, node[-1]+letter, kern_unnorm=np.zeros(len(data)))
+        return G
 
     def _proba(self, G):
         """

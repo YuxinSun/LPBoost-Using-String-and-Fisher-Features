@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bcfec7c-82aa-44ff-8b99-3dc6960f8a6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Features/generate_features.py" afterPath="$PROJECT_DIR$/Features/generate_features.py" />
     </list>
     <ignored path="LPBoost-Using-String-and-Fisher-Features.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="generate_features.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.267356">
-              <caret line="205" column="73" selection-start-line="205" selection-start-column="73" selection-end-line="205" selection-end-column="73" />
+            <state vertical-scroll-proportion="-0.99261445">
+              <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
               <folding>
                 <element signature="e#25#41#0" expanded="true" />
               </folding>
@@ -522,10 +521,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.267356">
-          <caret line="205" column="73" selection-start-line="205" selection-start-column="73" selection-end-line="205" selection-end-column="73" />
+        <state vertical-scroll-proportion="-0.99261445">
+          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
           <folding>
             <element signature="e#25#41#0" expanded="true" />
           </folding>
