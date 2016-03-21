@@ -67,7 +67,7 @@ class feature_generation(BaseEstimator):
         self.alpahbet = alphabet
         self.feature_type = feature_type
         self.n_transition = n_transition
-        self.proba_threshold = 0.
+        self.proba_threshold = proba_threshold
         self.verbose = verbose
 
         if feature_type not in ['string', 'fisher']:
@@ -128,16 +128,16 @@ class feature_generation(BaseEstimator):
         """
         edge_dic = {}
         kern_dic = {}
-        for i, data_item in enumerate(data):
-            print('Data item: %d' % i)
+        for data_counter, data_item in enumerate(data):
+            print('Data item: %d' % data_counter)
             for i in range(len(data_item)-self.p+1):
                 sub = data_item[i:i+self.p]
                 if sub in kern_dic:
-                    kern_dic[sub][i] += 1
+                    kern_dic[sub][data_counter] += 1
                 elif ' ' not in sub:
                     kern_dic[sub] = np.zeros(len(data))
                     kern_dic[sub] = kern_dic[sub].astype(float)
-                    kern_dic[sub][i] = 1
+                    kern_dic[sub][data_counter] = 1
 
         for k, v in kern_dic.items():
             edge_dic[(k[:-1], k[1:])] = v
@@ -147,21 +147,22 @@ class feature_generation(BaseEstimator):
 
         G = nx.DiGraph()
         G.add_edges_from(edge_dic.keys())
-        nx.set_edge_attributes(G, 'kern_unnorm', edge_dic)
+        nx.set_edge_attributes(G, 'kern_unnorm_', edge_dic)
 
         # add edges that represents non-existing transitions to improve performance
-        alphabet_set = set(alphabet)
-        for node in G.nodes():
-            if 'X' in node:
-                G.remove_node(node)  # remove nodes with 'X'
-                continue
-
-            suc = G.successors(node)
-            suc = set([temp[-1] for temp in suc])
-            inter = alphabet_set-alphabet_set.intersection(suc)
-
-            for letter in inter:
-                G.add_edge(node, node[-1]+letter, kern_unnorm=np.zeros(len(data)))
+        # no need to add such edges when n_transition=1
+        # alphabet_set = set(alphabet)
+        # for node in G.nodes():
+        #     if 'X' in node:
+        #         G.remove_node(node)  # remove nodes with 'X'
+        #         continue
+        #
+        #     suc = G.successors(node)
+        #     suc = set([temp[-1] for temp in suc])
+        #     inter = alphabet_set-alphabet_set.intersection(suc)
+        #
+        #     for letter in inter:
+        #         G.add_edge(node, node[-1]+letter, kern_unnorm_=np.zeros(len(data)))
         return G
 
     def _proba(self, G):
@@ -202,9 +203,8 @@ class feature_generation(BaseEstimator):
             Assign attribute log_proba_ to self.
         """
         proba_ = nx.get_edge_attributes(G, 'proba_')
-        proba_ = OrderedDict(sorted(proba_.items(), key=lambda t: t[0]))
-        proba_ = 1/np.asarray(proba_.values(), dtype=float)
-        proba_[np.where(proba_ == 0.)] = np.inf
+        proba_ = np.asarray(OrderedDict(sorted(proba_.items(), key=lambda t: t[0])).values(), dtype=float)
+        proba_[np.where(proba_ == 0.)] = 1.
         log_proba_ = np.log(1/proba_)  # to be checked: isnan?
 
         self.log_proba_ = log_proba_
@@ -225,10 +225,10 @@ class feature_generation(BaseEstimator):
         val_ = np.asarray(kern_.values(), dtype=float)
         key_ = kern_.keys()
 
-        if len(val_.shape) == 2:
+        if len(val_.shape) == 2:  # normalise if there are more than one data samples assigned to the DAG
             kern_ = normalize(val_ * self.log_proba_[:, None], norm='l2', axis=0)
-        else:
-            kern_ = (val_ * self.log_proba_)/np.linalg.norm(kern_)
+        else:  # normalise if there is only one data sample assigned to the DAG
+            kern_ = (val_ * self.log_proba_)/np.linalg.norm(val_ * self.log_proba_)
 
         kern_ = dict(zip(key_, kern_))
         nx.set_edge_attributes(G, 'kern_', kern_)
@@ -251,6 +251,8 @@ class feature_generation(BaseEstimator):
         elif self.feature_type == 'fisher':
             if self.n_transition == 1:
                 G = self._process_fisher(data)
+                self._proba(G)
+                self._log_proba(G)
                 G = self._normlise_DAG(G)
                 kern_ = nx.get_edge_attributes(G, 'kern_')
                 kern_ = OrderedDict(sorted(kern_.items(), key=lambda t: t[0]))

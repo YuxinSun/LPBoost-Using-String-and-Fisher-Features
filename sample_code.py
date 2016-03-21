@@ -1,6 +1,6 @@
 __author__ = 'yuxinsun'
 
-from scipy.io import loadmat
+from scipy.io import loadmat, savemat
 import numpy as np
 from Features.process_data import save_pickle, read_pickle
 from LPBoost.lpboost import lpboost
@@ -12,7 +12,7 @@ from Features.generate_features import feature_generation, create_word_list
 
 print('Generate string features using toy_data.cpickle')
 data = read_pickle('', 'toy_data')
-f = feature_generation()
+f = feature_generation(feature_type='fisher')
 data_norm = f.process(data)
 
 print('\nPerform LPBoost using hh1.mat')
