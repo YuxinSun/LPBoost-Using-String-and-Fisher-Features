@@ -1,20 +1,8 @@
 # LPBoost-Using-String-and-Fisher-Features
-LPBoost with string and Fisher features
+Linear programming boosting (LPBoost) with string and Fisher features
 
-Current implemented:
-Generate string features with formatted sequence files.
-LPBoost (not dynamic) using string features.
+This repository provides code and data sets that have been used for paper (link).
 
-To be implemented:
+Features contains code to generate both string and Fisher features. LPBoost contains code to perform LPBoost.
 
-Recent--
-
-Generate Fisher features with formatted sequence files.
-
-Create feature matrix of Fisher features if n_transition==1. This is to decrease the computational time.
-
-Future--
-
-LPBoost (dynamic) using string/ Fisher features.
-
-Generated feature matrix using (to some extent) unformatted sequence files.
+Data contains all the data sequences we have used.
