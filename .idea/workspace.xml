@@ -2,9 +2,390 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bcfec7c-82aa-44ff-8b99-3dc6960f8a6e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/CPX1A_GGA_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/CPX1A_TTG_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/CPX1B_CAC_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/EAE1A_GGA_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/EAE1A_TTG_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/EAE1B_CCG_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/EAE1B_TTG_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/MLRlib_ACC_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/MLRlib_CAC_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/MLRlib_GAG_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/SB1_AGG_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/SB1_ATT_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/SB1_CAC_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/SB1_GTC_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/SB1_TCA_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/SB1_TGC_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Expanded/SB2_ACC_clean_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/1/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/10/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/11/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/2/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/3/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/4/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/5/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/6/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/7/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/8/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/ACC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/ATT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/GTC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_AAA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_ACC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_AGG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_CTA_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_GAG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_TAT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB1_TTG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB2_ATT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB2_CAC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB2_CCG_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB2_CGT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB2_GCT_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/SB2_GTC_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/TAT_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/TGC_beta_cdr3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_MLRlib_ACC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_MLRlib_AGG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_MLRlib_CAC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_MLRlib_GAG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_MLRlib_TCA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_OVAlib_ATT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_OVAlib_CCG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_OVAlib_GTC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_OVAlib_TAT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/OVA_CFA_P277/9/clean_cdr3_OVAlib_TTG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hh1.mat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_code.py" afterPath="$PROJECT_DIR$/sample_code.py" />
     </list>
     <ignored path="LPBoost-Using-String-and-Fisher-Features.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +409,8 @@
       <file leaf-file-name="generate_features.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
+            <state vertical-scroll-proportion="-8.0">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <element signature="e#25#41#0" expanded="true" />
               </folding>
@@ -37,14 +418,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample_code.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="process_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Features/process_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_code.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7872969">
-              <caret line="26" column="63" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
               <folding>
                 <element signature="e#25#62#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37668163">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lpboost.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LPBoost/lpboost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.259259">
+              <caret line="131" column="42" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +481,9 @@
         <option value="$PROJECT_DIR$/Features/process_data.py" />
         <option value="$PROJECT_DIR$/NotImplement.py" />
         <option value="$PROJECT_DIR$/Features/generate_features.py" />
+        <option value="$PROJECT_DIR$/RenameFile.py" />
         <option value="$PROJECT_DIR$/sample_code.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -104,7 +517,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,9 +550,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LPBoost-Using-String-and-Fisher-Features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LPBoost-Using-String-and-Fisher-Features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,6 +605,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LPBoost-Using-String-and-Fisher-Features" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RenameFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LPBoost-Using-String-and-Fisher-Features" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RenameFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -304,12 +748,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.sample_code" />
+      <item index="1" class="java.lang.String" itemvalue="Python.RenameFile" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Python.sample_code" />
+        <item index="1" class="java.lang.String" itemvalue="Python.RenameFile" />
       </list>
     </recent_temporary>
   </component>
@@ -328,25 +774,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28936172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29078013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -365,6 +811,126 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="63" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="63" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="63" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="63" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="63" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="63" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -477,24 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LPBoost/lpboost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="108" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/networkx/classes/function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3323486">
           <caret line="403" column="4" selection-start-line="403" selection-start-column="4" selection-end-line="403" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323077">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -505,38 +1057,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Features/process_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59322035">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Features/generate_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="235" column="16" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="16" />
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="8" />
           <folding>
             <element signature="e#25#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotImplement.py">
+    <entry file="file://$PROJECT_DIR$/Features/process_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4534712">
-          <caret line="41" column="18" selection-start-line="0" selection-start-column="2" selection-end-line="41" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LPBoost/lpboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.259259">
+          <caret line="131" column="42" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7872969">
-          <caret line="26" column="63" selection-start-line="16" selection-start-column="0" selection-end-line="26" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
           <folding>
             <element signature="e#25#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37668163">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
