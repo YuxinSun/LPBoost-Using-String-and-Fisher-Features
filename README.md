@@ -1,4 +1,7 @@
 # LPBoost-Using-String-and-Fisher-Features
+
+Yuxin Sun, University College London, London, UK, 2016.
+
 Linear programming boosting (LPBoost) with string and Fisher features.
 
 The repository has been tested to work under Python 2.7.
