@@ -100,7 +100,10 @@ class lpboost(BaseEstimator):
         :return: array_like, shape (n_samples, n_selected_features)
             Data matrix whose columns are selected weak learners by LPBoost
         """
-        return X[:, self.idx]
+        try:
+            return X[:, self.idx]
+        except:
+            return X[self.idx]
 
     def transform(self, X):
         """
