@@ -10,13 +10,13 @@ The required dependencies to run the modules are cvxopt >= 1.1.8, NumPy >= 1.6.1
 
 This repository provides code and data sets that have been used.
 
-Data:
+**Data**
 
 Data/OVA_CFA_P277/: 11 subsets of immunised data that were used in the experiments. Each subset consists of 50000 randomly selected CDR3 sequences.
 
 Data/Expanded: expanded CDR3 sequences in OVA immunised and CFA immunised mice at early stage (sampled at day 5, 7 or 14).
 
-Code:
+**Code**
 
 Features/process_data.py: process CDR3 sequences, read and write .cPickle files for further use.
 
