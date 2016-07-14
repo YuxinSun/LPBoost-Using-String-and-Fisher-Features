@@ -10,6 +10,11 @@ The required dependencies to run the modules are cvxopt >= 1.1.8, NumPy >= 1.6.1
 
 This repository provides code and data sets that have been used.
 
+**Dependencies**
+cvxopt >= 1.1.8
+NumPy >= 1.6.1
+Scipy >= 0.9
+
 **Data**
 
 Data/OVA_CFA_P277/: 11 subsets of immunised data that were used in the experiments. Each subset consists of 50000 randomly selected CDR3 sequences.
