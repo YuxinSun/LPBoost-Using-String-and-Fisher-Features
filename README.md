@@ -20,10 +20,16 @@ Data/OVA_CFA_P277/: 11 subsets of immunised data that were used in the experimen
 
 Data/Expanded: expanded CDR3 sequences in OVA immunised and CFA immunised mice at early stage (sampled at day 5, 7 or 14).
 
-**Code**
+**###Modules**
 
 Features/process_data.py: process CDR3 sequences, read and write .cPickle files for further use.
 
 Features/generate_features.py: generate either string features or Fisher features.
 
-LPBoost/lpboost.py: a Python module for linear programming boosting (LPBoost).
+######LPBoost/lpboost
+
+a Python module for linear programming boosting (LPBoost).
+
+**Test**
+
+To test the code, one could simply run sample_code.py. This file would generate features from CDR3 sequences and perform LPBoost using the feature matrix that has been generated.
