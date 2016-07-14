@@ -9,6 +9,7 @@ The repository has been tested to work under Python 2.7.
 This repository provides code and data sets that have been used.
 
 **Dependencies**
+
 This repository has been successfully tested to work under Python 2.7.
 
 The required dependencies to work with the repository are cvxopt >= 1.1.8, NumPy >= 1.6.1 and Scipy >= 0.9.
