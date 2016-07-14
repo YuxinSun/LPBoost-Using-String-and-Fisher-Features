@@ -6,14 +6,12 @@ Linear programming boosting (LPBoost) with string and Fisher features.
 
 The repository has been tested to work under Python 2.7.
 
-The required dependencies to run the modules are cvxopt >= 1.1.8, NumPy >= 1.6.1 and SciPy >= 0.9.
-
 This repository provides code and data sets that have been used.
 
 **Dependencies**
-cvxopt >= 1.1.8
-NumPy >= 1.6.1
-Scipy >= 0.9
+This repository has been successfully tested to work under Python 2.7.
+
+The required dependencies to work with the repository are cvxopt >= 1.1.8, NumPy >= 1.6.1 and Scipy >= 0.9.
 
 **Data**
 
