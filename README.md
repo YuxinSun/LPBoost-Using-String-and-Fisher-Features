@@ -20,7 +20,7 @@ Data/OVA_CFA_P277/: 11 subsets of immunised data that were used in the experimen
 
 Data/Expanded: expanded CDR3 sequences in OVA immunised and CFA immunised mice at early stage (sampled at day 5, 7 or 14).
 
-**###Modules**
+###Modules
 
 Features/process_data.py: process CDR3 sequences, read and write .cPickle files for further use.
 
